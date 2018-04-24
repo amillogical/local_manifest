@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="device/lge/v10-common" name="amillogical/android_device_lge_v10-common" revision="parfait-release" remote="github" />
+	<project path="device/lge/h901" name="amillogical/android_device_lge_h901" revision="parfait-release" remote="github" />
+	<project path="vendor/lge" name="amillogical/proprietary_vendor_lge" revision="oreo-mr1-release" remote="github" />
+	<project path="device/qcom/common" name="device_qcom_common" remote="aoscp" />
+	<project path="hardware/sony/thermanager" name="hardware_sony_thermanager" remote="aoscp" />
+	<project path="hardware/sony/timekeep" name="hardware_sony_timekeep" remote="aoscp" />
+	<project path="kernel/lge/msm8992" name="amillogical/android_kernel_lge_msm8992" revision="lineage-15.1" remote="github" />
+</manifest>
