@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/lge/v10-common" name="amillogical/android_device_lge_v10-common" revision="parfait-release" remote="github" />
-	<project path="device/lge/h901" name="amillogical/android_device_lge_h901" revision="parfait-release" remote="github" />
-	<project path="vendor/lge" name="amillogical/proprietary_vendor_lge" revision="oreo-mr1-release" remote="github" />
-	<project path="device/qcom/common" name="device_qcom_common" remote="aoscp" />
-	<project path="hardware/sony/thermanager" name="hardware_sony_thermanager" revision="oreo-mr1-release" remote="aoscp" />
-	<project path="hardware/sony/timekeep" name="hardware_sony_timekeep" revision="oreo-mr1-release" remote="aoscp" />
-	<project path="kernel/lge/msm8992" name="amillogical/android_kernel_lge_msm8992" revision="lineage-15.1" remote="github" />
+	<remote name="gh"
+		fetch="https://github.com/"
+		revision="refs/heads/lineage-15.1" />
+	<project path="device/lge/v10-common" name="amillogical/android_device_lge_v10-common" remote="gh" />
+	<project path="device/lge/h901" name="amillogical/android_device_lge_h901" remote="gh" />
+	<project path="vendor/lge" name="amillogical/proprietary_vendor_lge" revision="oreo-mr1-release" remote="gh"/>
+	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="gh" />
+	<project path="hardware/sony/thermanager" name="LineageOS/android_hardware_sony_thermanager" remote="gh" />
+	<project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="gh" />
+	<project path="kernel/lge/msm8992" name="amillogical/android_kernel_lge_msm8992" revision="lineage-15.1" remote="gh" />
 </manifest>
