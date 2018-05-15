@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remove-project name="vendor_aoscp" />
+	<remove-project name="frameworks_base" />
+	<remove-project name="packages_apps_Settings" />
 	<project path="vendor/aoscp" name="amillogical/vendor_aoscp" revision="parfait-release" remote="github" />
 	<project path="device/lge/v10-common" name="amillogical/android_device_lge_v10-common" revision="parfait-release" remote="github" />
 	<project path="device/lge/h901" name="amillogical/android_device_lge_h901" revision="parfait-release" remote="github" />
@@ -9,4 +11,6 @@
 	<project path="hardware/sony/thermanager" name="hardware_sony_thermanager" revision="oreo-mr1-release" remote="aoscp" />
 	<project path="hardware/sony/timekeep" name="hardware_sony_timekeep" revision="oreo-mr1-release" remote="aoscp" />
 	<project path="kernel/lge/msm8992" name="amillogical/android_kernel_lge_msm8992" revision="oreo-mr1-release" remote="github" />
+	<project path="frameworks/base" name="amillogical/frameworks_base" revision="parfait-release" remote="github" />
+	<project path="packages/apps/Settings" name="amillogical/packages_apps_Settings" revision="parfait-release" remote="github" />
 </manifest>
